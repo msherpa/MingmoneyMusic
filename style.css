@@ -1,0 +1,428 @@
+
+*{
+    box-sizing: border-box;
+    margin:0px;
+    padding:0px;
+    max-width: 1280px;
+}
+body {
+    background-color:orange;
+}
+nav{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color:wheat;
+}
+.logo{
+    color:blue;
+    text-transform: uppercase;
+    font-family: 'Libre Baskerville', cursive;
+    letter-spacing:  5px;
+    font-size: 22px;
+}
+
+.nav-links{
+    display: flex;
+    justify-content: space-around;
+    width: 40%;
+}
+.nav-links li{
+    list-style: none;
+}
+.nav-links a{
+    color: blue;
+    text-decoration: none;
+    letter-spacing: 3px;
+    font-weight: bold;
+    font-size: 14px;
+}
+#jump{
+    color:green
+}
+.burger{
+    display:none;
+}
+
+.burger div{
+    width: 25px;
+    height: 5px;
+    background-color: slateblue;
+    margin: 3px
+}
+.ArtistProfile{
+    color:olive;
+    font-family: 'Lobster', cursive;
+    text-decoration: none;
+    letter-spacing: 3px;
+    font-weight: bold;
+    font-size: 20px;
+    height: 350px;
+}
+
+.ArtistProfile h2{
+    margin-left: 200px;
+}
+
+.ArtistProfile img{
+    display: flex;
+}
+    
+
+.ArtistProfile p{
+    display: inline-block;
+    vertical-align: middle;
+    margin-left: 150px;
+    margin-top:150px;
+}
+
+p {
+    font-size: 25px;
+    font-family: 'Dancing Script', cursive;
+    color: black;
+    text-align: justify;
+}
+.Features{
+    color:olive;
+    font-family: 'Lobster', cursive;
+    text-decoration: none;
+    letter-spacing: 3px;
+    font-weight: bold;
+    font-size: 20px;
+    text-align: right;
+}
+.Features img{
+    display: flex;
+    position: relative;
+    bottom: 20px;
+
+}
+.Features h2{
+    margin-right: 230px;
+    margin-top:70px;
+}
+.Features p{
+    display: inline-block;
+    vertical-align: middle;
+    margin-right: 50px;
+    margin-top:125px;
+}
+
+.surpriseMe {
+	box-shadow:inset 0px 1px 0px 0px #f29c93;
+	background:linear-gradient(to bottom, #fe1a00 5%, #ce0100 100%);
+	background-color:#fe1a00;
+	border-radius:6px;
+	border:1px solid #d83526;
+	display:inline-block;
+	cursor:pointer;
+	color:#ffffff;
+	font-family:Verdana;
+	font-size:15px;
+	font-weight:bold;
+	padding:6px 24px;
+	text-decoration:none;
+	text-shadow:0px 1px 0px #b23e35;
+    position: relative;
+    top: 250px;
+    left: 450px;
+}
+.surpriseMe:hover {
+	background:linear-gradient(to bottom, #ce0100 5%, #fe1a00 100%);
+	background-color:#ce0100;
+}
+.surpriseMe:active {
+	position:relative;
+
+}
+.signup {
+    font-family: 'Libre Baskerville', cursive;
+    font-size: 30px;
+    color: blue;
+    text-transform: uppercase;
+}
+.membership h2{
+    font-family: 'Shippori Mincho B1', serif;
+    color: olive;
+    text-align: center;
+    font-size: 35px;
+}       
+.membership li{
+    list-style: none;
+    text-align: center;
+    font-size: 40px;
+}
+.membership li a{
+    color:orange;
+    text-decoration: none;
+    letter-spacing: 3px;
+    font-weight: bold;
+    font-size: 25px;
+    text-align: center;
+}
+.membership li b{
+    color:orchid;
+    text-decoration: none;
+    letter-spacing: 3px;
+    font-weight: bold;
+    font-size: 25px;
+    text-align: center;
+}
+.rectangle{
+    position:relative;
+    left: 340px;
+    bottom: 150px;
+    width: 600px;
+    height:800px;
+    background-color: wheat;
+}
+.container{
+    position:relative;
+    top:30px;
+    width: 450px;
+    height: 725px;
+    margin:240px auto;
+    background:darkblue;
+}
+
+.joinToday {
+	box-shadow:inset 0px 1px 0px 0px #a4e271;
+	background:linear-gradient(to bottom, #89c403 5%, #77a809 100%);
+	background-color:#89c403;
+	border-radius:6px;
+	border:1px solid #74b807;
+	display:inline-block;
+	cursor:pointer;
+	color:#ffffff;
+	font-family:Arial;
+	font-size:15px;
+	font-weight:bold;
+	padding:18px 38px;
+	text-decoration:none;
+	text-shadow:0px 1px 0px #528009;
+    position:relative;
+    bottom: 400px;
+    left: 550px;
+
+}
+.joinToday:hover {
+	background:linear-gradient(to bottom, #77a809 5%, #89c403 100%);
+	background-color:#77a809;
+}
+.joinToday:active {
+	position:relative;
+	top:1px;
+}
+
+.responsive{
+    width:100%;
+    height:0;
+    padding-bottom: 56.25%;
+    position: relative;
+    top:300px;
+    display:flex;
+    justify-content:center;
+}
+.responsive iframe{
+    position:absolute;
+    height:50%;
+    width:90%;
+}
+#Info{
+    margin-top: 300px;
+}
+
+@media screen and (max-width:1279px) {
+    
+    .Features p{
+        display: inline-block;
+        vertical-align: middle;
+        position: relative;
+        right: 50px;
+        top:200px;
+    }
+}
+    .surpriseMe {
+        box-shadow:inset 0px 1px 0px 0px #f29c93;
+        background:linear-gradient(to bottom, #fe1a00 5%, #ce0100 100%);
+        background-color:#fe1a00;
+        border-radius:6px;
+        border:1px solid #d83526;
+        display:inline-block;
+        cursor:pointer;
+        color:#ffffff;
+        font-family:Verdana;
+        font-size:15px;
+        font-weight:bold;
+        padding:6px 24px;
+        text-decoration:none;
+        text-shadow:0px 1px 0px #b23e35;
+        position: relative;
+        top: 250px;
+        left: 450px;
+    }
+    .responsive{
+        width:100%;
+        height:0;
+        padding-bottom: 56.25%;
+        position: relative;
+        bottom:550px;
+        display:flex;
+        justify-content:center;
+    }
+    .responsive iframe{
+        position:absolute;
+        height:50%;
+        width:90%;
+    }
+}
+@media screen and (max-width:1195px){
+        .ArtistProfile p{
+        }
+        .Artist
+        
+}
+
+@media screen and (max-width:1221px){
+        .Features h2{
+            display:flex;
+            vertical-align: middle;
+            margin-top:400px;
+            margin-right: 250px;
+        }
+        .Features img{
+            display: flex;
+            position: relative;
+           
+
+        }
+
+
+@media screen and (max-width:1228px) {
+    .ArtistProfile p{
+        display: flex;
+        vertical-align: middle;
+        margin-top:500px;
+        margin-right:50px;
+    }
+    .ArtistProfile {
+        flex-direction:  column;
+    }
+    .Features{
+        flex-direction: column;
+    }
+    }
+    
+
+
+@media screen and (max-width:768px) {
+    body{
+        overflow-x: hidden;
+    }
+    .nav-links{
+        position: absolute;
+        right: 0px;
+        height: 92vh;
+        top: 8vh;
+        display: flex;
+        flex-direction:  column;
+        align-items: center;
+        width: 50%;
+        transform: translateX(100%)
+    }
+    .nav-links li{
+        opacity: 0;
+    }
+    .burger{
+        display: block;
+    }
+}
+@media screen and (max-width:647px){
+
+.ArtistProfile img{
+    width:100%;
+    display: flex;
+    height:400px;
+}
+
+.Features img{
+    display: flex;
+    position: relative;
+    width:100%;
+    height:400px;
+    }
+
+.Features h2{
+    margin-left:250px;
+}
+
+    .surpriseMe {
+        box-shadow:inset 0px 1px 0px 0px #f29c93;
+        background:linear-gradient(to bottom, #fe1a00 5%, #ce0100 100%);
+        background-color:#fe1a00;
+        border-radius:6px;
+        border:1px solid #d83526;
+        display:inline-flex;
+        cursor:pointer;
+        color:#ffffff;
+        font-family:Verdana;
+        font-size:15px;
+        font-weight:bold;
+        padding:6px 24px;
+        text-decoration:none;
+        text-shadow:0px 1px 0px #b23e35;
+        position: relative;
+        top: 450px;
+        right: 200px;
+        width: 100%;
+    }
+
+    .responsive{
+        width:100%;
+        height:40%;
+        padding-bottom: 56.25%;
+        position: relative;
+        top: 450px;
+        display:flex;
+        
+    }
+
+}
+
+
+
+
+@media screen and (max-width:407px){
+    .ArtistProfile h2{
+        display:flex
+    }
+    
+}
+@media screen and (max-width:375px){
+    .surpriseMe {
+        box-shadow:inset 0px 1px 0px 0px #f29c93;
+        background:linear-gradient(to bottom, #fe1a00 5%, #ce0100 100%);
+        background-color:#fe1a00;
+        border-radius:6px;
+        border:1px solid #d83526;
+        display:inline-flex;
+        cursor:pointer;
+        color:#ffffff;
+        font-family:Verdana;
+        font-size:15px;
+        font-weight:bold;
+        padding:6px 24px;
+        text-decoration:none;
+        text-shadow:0px 1px 0px #b23e35;
+        position: absolute;
+        float:left;
+        width: 100%;
+         min-width: 50px;
+         max-width: 300px;
+        right:200px;
+    }
+}
+
+
+}
+
